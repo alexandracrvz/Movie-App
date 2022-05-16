@@ -2,7 +2,7 @@
 
 ## Project Links
 
-- [add your github repo link]()
+- Github repo: https://github.com/alexandracrvz/Movie-App
 - [add your deployment link]()
 
 ## Project Description
