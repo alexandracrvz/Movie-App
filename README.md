@@ -20,7 +20,7 @@ This API allows users for fetch data on any movie within OMDb.
 
 ## Wireframes
 
-- [add link to your wireframes]()
+- Wireframes: https://imgur.com/a/SvMpmR9
 - [add link to your react architecture]()
 
 
