@@ -15,7 +15,7 @@
 
  OMDb: https://www.omdbapi.com
 
- This API allows users for fetch data on any movie within OMDb.
+ This API allows users for fetch data on any film within OMDb.
 
  (ADD CODE SNIPPET BELOW)
 
@@ -34,10 +34,14 @@
  - Find and use external api 
  - Render data on page 
  - Allow user to interact with the page
+ - Add router and placeholders
+ - Add components
+ - Allow user to interact with the page
 
  #### PostMVP
 
- - Add localStorage or firebase for storage
+ - Add CSS
+ - Change placeholder text
 
  ## Components
 
@@ -52,12 +56,13 @@
 
  | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
  | --- | :---: |  :---: | :---: | :---: |
- | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
- | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
- | Total | H | 6hrs| 5hrs | 5hrs |
-
- ## Additional Libraries
-  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+ | Adding API | H | 4hr | 4hr | 5hr |
+ | Adding Form | H | 4hrs| 3hrs | 3.5hrs |
+ | Working with API | H | 4hrs| 6hrs | 6hrs |
+ | Adding Router | H | 3.5hr | 3hr | 4hr |
+ | Adding Components | H | 3hr | 3hr | 3hr |
+ | Total | H | 18.5hrs | 20hrs | 22.5hrs |
+ 
 
  ## Code Snippet
 
