@@ -66,4 +66,17 @@
 
  ## Code Snippet
 
- (ADD CODE SNIPPET BELOW)
+```js
+  let movieDisplay = "";
+  if (movie !== null) {
+    movieDisplay = (
+      <div>
+        <h2>Title: {movie.Title}</h2>
+        <h3>Year: {movie.Year}</h3>
+        <img src={movie.Poster} alt={movie.Title} />
+        <h4>Genre: {movie.Genre}</h4>
+        <h5>Plot: {movie.Plot}</h5>
+      </div>
+    );
+  }
+  ```
