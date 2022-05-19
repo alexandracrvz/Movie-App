@@ -43,10 +43,10 @@
 
  | Component | Description | 
  | --- | :---: |  
- | App | This will make the initial data pull and include React Router| 
- | Header | This will render the header include the nav |
- | Home | This will render the interactive OMDb API search engine |
- | Favorites | This will render a list of favorite movies created by user |
+ | App | This will make the initial data pull and include React Router and render the header include the nav|
+ | Home | This will render the interactive OMDb API search engine and App description |
+ | Favorites | This will render a list of favorite films created by user |
+ | Add to list | This will render form/input user uses to add favorite films to list |
  | About | This will render information about how the App works |
 
 
