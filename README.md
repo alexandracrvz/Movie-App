@@ -1,15 +1,15 @@
 
- # Movie-App
+ # Athenaeum
  # Project Overview
 
  ## Project Links
 
- - [add your github repo link]()
+ - https://github.com/alexandracrvz/Athenaeum
  - [add your deployment link]()
 
  ## Project Description
 
- With this Movie App users will be able to search for a movie then be provided with movie information. The user can then add their favorite movies to a list by clicking the "Add to Favorites" button. This App is useful for movie lovers with a desire to be able to easily access a library of movies they they love.
+ With this Film App called "Athenauem" users will be able to search for a film then be provided with the film's title, poster, genre, and synopsis by fetching the information from the OMDb API. The user can then add their favorite films to a list by clicking the "Add to Favorites" button. This App is useful for film lovers with a desire to be able to easily access a library of films that they love.
 
  ## API
 
@@ -22,7 +22,7 @@
 
  ## Wireframes
 
- - [add link to your wireframes]()
+ Wireframes: https://imgur.com/a/SvMpmR9
  - [add link to your react architecture]()
 
 
