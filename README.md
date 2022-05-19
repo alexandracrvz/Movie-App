@@ -17,7 +17,23 @@
 
  This API allows users for fetch data on any film within OMDb.
 
- (ADD CODE SNIPPET BELOW)
+ ```js
+    fetch(`https://www.omdbapi.com/?apikey=${apiKey}&t=${searchTerm}`)
+      .then((response) => response.json())
+      .then((data) => {
+        setSearchTerm("");
+        if (data.Error) {
+          setMessage(data.Error);
+          setMovie(null);
+        } else {
+          setMovie(data);
+          setMessage("");
+        }
+      })
+
+      .catch(() => setMessage("Not found."));
+  };
+  ```
 
 
  ## Wireframes
