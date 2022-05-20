@@ -10,7 +10,7 @@ const apiKey = "d348ab02";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [movie, setMovie] = useState(null);
+  const [film, setFilm] = useState(null);
   const [message, setMessage] = useState("");
 
   const updateSearchTerm = (event) => {
@@ -26,9 +26,9 @@ function App() {
         setSearchTerm("");
         if (data.Error) {
           setMessage(data.Error);
-          setMovie(null);
+          setFilm(null);
         } else {
-          setMovie(data);
+          setFilm(data);
           setMessage("");
         }
       })
@@ -36,15 +36,15 @@ function App() {
       .catch(() => setMessage("Not found."));
   };
 
-  let movieDisplay = "";
-  if (movie !== null) {
-    movieDisplay = (
+  let filmDisplay = "";
+  if (film !== null) {
+    filmDisplay = (
       <div>
-        <h2>Title: {movie.Title}</h2>
-        <h3>Year: {movie.Year}</h3>
-        <img src={movie.Poster} alt={movie.Title} />
-        <h4>Genre: {movie.Genre}</h4>
-        <h5>Plot: {movie.Plot}</h5>
+        <h2>Title: {film.Title}</h2>
+        <h3>Year: {film.Year}</h3>
+        <img src={film.Poster} alt={film.Title} />
+        <h4>Genre: {film.Genre}</h4>
+        <h5>Plot: {film.Plot}</h5>
       </div>
     );
   }
@@ -89,7 +89,7 @@ function App() {
       </center>
 
       <p>{message}</p>
-      {movieDisplay}
+      {filmDisplay}
 
       <Addtolist />
     </div>
