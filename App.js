@@ -56,40 +56,42 @@ function App() {
       </div>
 
       <nav>
-        <Link to="/" className="homenav">Home</Link>
-        <Link to="/favorites" className="favoritesnav">Favorites</Link>
-        <Link to="/about" className="aboutnav">About</Link>
+        <Link to="/" className="homenav">
+          Home
+        </Link>
+        <Link to="/favorites" className="favoritesnav">
+          Favorites
+        </Link>
+        <Link to="/about" className="aboutnav">
+          About
+        </Link>
       </nav>
 
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path='/favorites' element={<Favorites />} />
+          <Route path="/favorites" element={<Favorites />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </main>
 
-     
-
-      <center><form onSubmit={handleSubmit}>
-        <label>Title:</label>
-        <input
-          onChange={updateSearchTerm}
-          value={searchTerm}
-          type="text"
-          placeholder="Film Title"
-        />
-        <input type="submit" value="Search" />
-      </form>
+      <center>
+        <form onSubmit={handleSubmit}>
+          <label>Title:</label>
+          <input
+            onChange={updateSearchTerm}
+            value={searchTerm}
+            type="text"
+            placeholder="Film Title"
+          />
+          <input type="submit" value="Search" />
+        </form>
       </center>
 
-
-    
       <p>{message}</p>
       {movieDisplay}
 
       <Addtolist />
-
     </div>
   );
 }

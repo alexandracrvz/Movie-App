@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100;400&display=swap");
 
 .logo {
   font-family: "Roboto", sans-serif;
@@ -13,8 +13,6 @@ nav {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  
-  
 }
 
 a:link {
@@ -44,19 +42,17 @@ a:hover {
   padding: 0 10px 0 10px;
 }
 
-
-
-
-
-form, input, label{
+form,
+input,
+label {
   font-family: "Roboto", sans-serif;
-display: inline-block;
-
-  
-  
+  display: inline-block;
 }
 
-h2, h3, h4, h5 {
+h2,
+h3,
+h4,
+h5 {
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
